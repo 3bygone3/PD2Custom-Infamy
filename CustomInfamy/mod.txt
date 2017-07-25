@@ -1,0 +1,19 @@
+{
+    "name" : "Custom Infamy",
+    "description" : "Allows going infamous without loosing skill points, assuming one reached at least level 130.\n Requires more reputation mod. https://modworkshop.net/mydownloads.php?action=view_down&did=17144",
+    "author" : "3bygone3",
+    "contact" : "n/a",
+    "version" : "1.5",
+    "priority" : 11,
+    "keybinds" : [
+        {
+            "keybind_id": "Custominfamy",
+            "name": "Custominfamy",
+            "description": "Allows going infamous without loosing skills.",
+            "script_path": "custominfamy.lua",
+            "run_in_menu": true,
+            "run_in_game": false,
+            "localized": false
+        }
+    ]
+}
