@@ -4,6 +4,7 @@
     "author" : "3bygone3",
     "contact" : "n/a",
     "version" : "1.5",
+    "blt_version" : 2,
     "priority" : 11,
     "keybinds" : [
         {
