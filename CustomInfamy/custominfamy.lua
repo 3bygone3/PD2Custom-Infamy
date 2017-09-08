@@ -6,7 +6,7 @@ function MenuCallbackHandler:_increase_infamous_custom(yes_clbk)
 	local rank = managers.experience:current_rank() + 1
 	
 	managers.experience:set_current_rank(rank)
-	managers.experience:_set_current_level(managers.experience:current_level() - 30)
+	managers.experience:_set_current_level(100)--(managers.experience:current_level() - 30)
 	
 	local offshore_cost = Application:digest_value(tweak_data.infamy.ranks[rank], false)
 	if offshore_cost > 0 then
@@ -68,7 +68,7 @@ end
 
 _toggleCustominfamy = not _toggleCustominfamy
 if _toggleCustominfamy then
-	local _menu = QuickMenu:new("Custom Infamy", "If you are at least level 130 and bellow maximum infamy you'll gain one infamy level and loose 30 levels.\n PS: If you fulfilled above you'll get warning message, you are free to ignore it (I didn't manage to remove it yet).", {{text = "[ I understand. ]", is_cancel_button = true}})
+	local _menu = QuickMenu:new("Custom Infamy", "If you are at least level 130 and bellow maximum infamy you'll gain one infamy level and your level will be set to 100.\n PS: If you fulfilled above you'll get warning message, you are free to ignore it (I didn't manage to remove it yet).", {{text = "[ I understand. ]", is_cancel_button = true}})
 	_menu:Show()
 	custominfamy()
 end
