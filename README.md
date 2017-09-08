@@ -2,7 +2,7 @@
 
 ## What this mod does:
 
-- After reaching at least level 130 user has an option to gain one level of infamy and return back to level 100 without loosing weapons,  skill tree points, saved skill trees or character loadouts.
+- After reaching at least level 130 user has an option to gain one level of infamy and return back to level 100 without loosing weapons,  skill tree points, saved skill trees or character loadouts. Achievement will be awarded and published to steam as well.
 
 
 ## What this mod doesn't allow:
